@@ -243,7 +243,7 @@ def install_trf(final_install_folder, mac_os):
     trf_exe = "trf"
 
     if mac_os:
-        url = "http://tandem.bu.edu/trf/downloads/trf409.macosx"
+        url = "https://github.com/Benson-Genomics-Lab/TRF/releases/download/v4.09.1/trf409.macosx"
     else:
         url = "http://tandem.bu.edu/trf/downloads/trf409.linux64"
 
